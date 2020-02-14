@@ -4,13 +4,109 @@
   }
 }
 
+@media screen and (max-width: 767.98px) {
+.show-in-small::before {
+    content: "Afghanistan Times";
+  }
+}
+
+@media screen and (min-width: 768px) {
+.hide-in-large {
+    display:none;
+  }
+}
+
+body {
+  line-height: 1.5em;
+}
+
+.background-secondary {
+  background-color: white;
+}
+
+.navbar {
+  border-bottom: 2px solid red;
+}
 
 aside {
-  background-color: black;
+  background-color: #fafafa;
   color: white;
 }
 
 footer {
   color: white;
   padding:20px;
+  border-top: 3px solid #24d639;
+  margin-top: 50px;
+}
+
+footer li {
+  list-style-type:none;
+}
+
+footer div {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-collapse: collapse;
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+main > h1 {
+    font-size:30px;
+    font-weight: 700;
+  }
+h2 {
+  font-size: 18px;
+  font-weight: 500  ;
+  color: #1c1c1c ;
+}
+}
+
+hr {
+  padding: none;
+  margin:none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.no-border {
+  border: none;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+
+.no-padding {
+  padding:0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.good-padding {
+  padding: 40px 0px 0px 0px;
+}
+
+main > table, tr, th, td {
+  border: 2px solid #c2c2c2;
+  border-collapse: collapse;
+    padding: 5px;
+}
+main > table {
+  margin-left: auto;
+  margin-right: auto;
+  margin:
 }
