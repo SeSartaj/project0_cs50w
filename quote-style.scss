@@ -1,0 +1,24 @@
+$primary-color: #fff;
+$secondary-color: #0366f1;
+
+body {
+  background-color: black;
+}
+
+main {
+  @extend body;
+  margin-top: 30vh;
+  margin-bottom: 40vh;
+  background-color: black;
+
+  blockquote {
+    color: #f5f5f5;
+    font-size: 2em;
+    line-height: 1.2em;
+
+    cite {
+      font-size: 20px;
+      font-style: italic;
+    }
+  }
+}

@@ -24,7 +24,7 @@ body {
   background-color: white;
 }
 
-.navbar {
+.border-red {
   border-bottom: 2px solid red;
 }
 
@@ -37,9 +37,11 @@ footer {
   color: white;
   padding:20px;
   border-top: 3px solid #24d639;
-  margin-top: 50px;
 }
 
+.quote-footer {
+  border-top: none;
+}
 footer li {
   list-style-type:none;
 }
@@ -110,3 +112,6 @@ main > table {
   margin-right: auto;
   margin:
 }
+
+
+/* ================================================ ContactUS specific */
